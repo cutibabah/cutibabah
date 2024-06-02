@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/cutibabah/cutibabah.git  /root/FlashMd
-WORKDIR /root/FlashMd/
+RUN git clone https://github.com/cutibabah/cutibabah.git  /root/rushMd
+WORKDIR /root/rushMd/
 
 
 COPY package.json .
